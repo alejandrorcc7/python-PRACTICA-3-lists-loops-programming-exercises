@@ -1,4 +1,6 @@
-my_list = [232,32,1,4,55,4,3,32,3,24,5,5,5,34,2,35,5365743,52,34,3,55]
+my_sample_list = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12]
 
-# Your code here
-print(my_list[0])
+# Modify the loop below to print from end to start
+
+for i in range(len(my_sample_list) - 1, -1, -1):
+    print(my_sample_list[i])
